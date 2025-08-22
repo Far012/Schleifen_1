@@ -7,4 +7,12 @@ for (String name in names) {
   print(name);
 }
 
+int sum = 0;
+for (int point in points) {
+  sum += point;
+
+double average = sum / points.length;
+  print('Average points: $average');
+
+}
 }
